@@ -1,6 +1,8 @@
-## Welcome!
+## Downloads
 
-Feel free to avail yourself of some of the fine open-source packages we've pinned below.
+Welcome! This is the new site for the products formerly known as Delegat Foundation and Delegat SOAR and their component repositories. Some of these have been open-source for a long time and can be used stand-alone; see the listing of public repositories to see what's available. You'll also find a few of them pinned below.
 
-Please log in to access `CloudSecOps Foundation` and `CloudSecOps SOAR`.
+## Foundation & SOAR
+
+To install `OpenSecOps Foundation` and `OpenSecOps SOAR`, clone the repo [Installer](https://github.com/CloudSecOps-Org/Installer) and follow the instructions in its README. You will also find complete installation instructions and all manuals in the `docs` directory.
 
