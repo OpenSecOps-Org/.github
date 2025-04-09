@@ -1,6 +1,8 @@
 # OpenSecOps - AWS Security Automation Platform
 
-Welcome to OpenSecOps! This platform provides enterprise-grade security automation for AWS environments through two main products: Foundation and SOAR. Some components have been open-source for a long time and can be used stand-alone. All products have passed stringent AWS Foundational Technical Reviews and are battle-tested and in active use in the industry.
+Welcome to OpenSecOps! This platform provides enterprise-grade security automation for AWS environments through two main products: Foundation and SOAR. Some components have been open-source for a long time and can be used stand-alone. 
+
+All products have passed stringent AWS Foundational Technical Reviews and are battle-tested and in active use in the industry.
 
 ## Products
 
