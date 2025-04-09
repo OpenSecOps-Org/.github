@@ -48,6 +48,10 @@ Comprehensive documentation is available in the Installer's `docs` directory, in
 
 - [Code of Conduct](https://github.com/CloudSecOps-Org/.github/blob/main/profile/CODE_OF_CONDUCT.md) - Our community standards
 - [Contributing Guidelines](https://github.com/CloudSecOps-Org/.github/blob/main/profile/CONTRIBUTING.md) - How to contribute to OpenSecOps
+- [Pull Request Template](https://github.com/CloudSecOps-Org/.github/blob/main/profile/PULL_REQUEST_TEMPLATE.md) - Template for submitting pull requests
+- [Issue Templates](https://github.com/CloudSecOps-Org/.github/tree/main/profile/ISSUE_TEMPLATE) - Templates for creating issues
+  - [Bug Report](https://github.com/CloudSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/bug_report.md) - Report a bug
+  - [Feature Request](https://github.com/CloudSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/feature_request.md) - Suggest a new feature
 - [Security Policy](https://github.com/CloudSecOps-Org/.github/blob/main/profile/SECURITY.md) - Reporting security vulnerabilities
 
 ## Website

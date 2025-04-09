@@ -22,7 +22,7 @@ OpenSecOps is deployed in production environments of financial institutions and 
 
 1. **Understand the Context**: Familiarize yourself with the architecture and security principles of OpenSecOps.
 
-2. **Create an Issue First**: Always create an issue discussing your proposed change before submitting code.
+2. **Create an Issue First**: Always create an issue discussing your proposed change before submitting code. Please use our [Bug Report](https://github.com/CloudSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/bug_report.md) or [Feature Request](https://github.com/CloudSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/feature_request.md) templates.
 
 3. **Wait for Approval**: Do not begin work until a maintainer has approved your proposal.
 
@@ -45,6 +45,7 @@ All contributions MUST:
 4. The PR title should clearly describe the security implications.
 5. Be prepared to address detailed security questions during review.
 6. All commits must be signed.
+7. Use our [Pull Request Template](https://github.com/CloudSecOps-Org/.github/blob/main/profile/PULL_REQUEST_TEMPLATE.md) when submitting your PR.
 
 ### Code Review
 
