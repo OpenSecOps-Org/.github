@@ -28,21 +28,21 @@ To install OpenSecOps, clone the [Installer repository](https://github.com/Cloud
 
 ## Documentation
 
-Comprehensive documentation is available in the Installer's `docs` directory, including:
+Comprehensive documentation is available in the [Documentation repository](https://github.com/CloudSecOps-Org/Documentation), including:
 
 ### Foundation Documentation
-- [Installation Manual](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/Foundation/OpenSecOps%20Foundation%20Installation%20Manual.docx.pdf) - Complete deployment guide
-- [Technical Design Specification](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/Foundation/OpenSecOps%20Foundation%20TDS.docx.pdf) - Architecture details
-- [Standard Operating Procedures](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/Foundation/OpenSecOps%20Foundation%20Account%20Properties%20SOP.docx.pdf) - Day-to-day management
+- [Installation Manual](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/Foundation/OpenSecOps%20Foundation%20Installation%20Manual.docx.pdf) - Complete deployment guide
+- [Technical Design Specification](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/Foundation/OpenSecOps%20Foundation%20TDS.docx.pdf) - Architecture details
+- [Standard Operating Procedures](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/Foundation/OpenSecOps%20Foundation%20Account%20Properties%20SOP.docx.pdf) - Day-to-day management
 
 ### SOAR Documentation
-- [Installation Manual](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/SOAR/OpenSecOps%20SOAR%20-%20Installation%20Manual.docx.pdf) - Step-by-step deployment
-- [Technical Design Specification](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/SOAR/OpenSecOps%20SOAR%20-%20TDS.docx.pdf) - Architecture and design
-- [Standard Operating Procedures](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/SOAR/OpenSecOps%20SOAR%20-%20SOP.docx.pdf) - Operational tasks
+- [Installation Manual](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20-%20Installation%20Manual.docx.pdf) - Step-by-step deployment
+- [Technical Design Specification](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20-%20TDS.docx.pdf) - Architecture and design
+- [Standard Operating Procedures](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20-%20SOP.docx.pdf) - Operational tasks
 - Component-specific SOPs:
-  - [DynamoDB Tables SOP](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/SOAR/OpenSecOps%20SOAR%20DynamoDB%20Tables%20-%20SOP.docx.pdf)
-  - [KMS Keys SOP](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/SOAR/OpenSecOps%20SOAR%20KMS%20Keys%20-%20SOP.docx.pdf)
-  - [S3 Buckets SOP](https://github.com/CloudSecOps-Org/Installer/blob/main/docs/SOAR/OpenSecOps%20SOAR%20S3%20Buckets%20-%20SOP.docx.pdf)
+  - [DynamoDB Tables SOP](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20DynamoDB%20Tables%20-%20SOP.docx.pdf)
+  - [KMS Keys SOP](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20KMS%20Keys%20-%20SOP.docx.pdf)
+  - [S3 Buckets SOP](https://github.com/CloudSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20S3%20Buckets%20-%20SOP.docx.pdf)
 
 ## Community Resources
 
