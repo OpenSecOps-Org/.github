@@ -57,3 +57,9 @@ Comprehensive documentation is available in the [Documentation repository](https
 ## Website
 
 Visit our website at [https://opensecops.org](https://opensecops.org) for additional information, including technical details and stakeholder-focused material.
+
+## Mailing List
+
+The OpenSecOps newsletter provides updates on our open-source AWS security and operations platform. Subscribe to receive announcements about new features, security best practices, implementation tips, and community contributions. We'll share insights about both our Foundation (AWS infrastructure best practices) and SOAR (security automation) components, along with practical guidance for deploying and managing secure cloud environments. This low-volume newsletter helps you stay informed about this project that reduces AWS setup from person-years to just days.
+
+[https://buttondown.com/devsecops](https://buttondown.com/devsecops)
