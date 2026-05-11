@@ -1,37 +1,22 @@
 ---
 name: Feature request
-about: Suggest an enhancement for this project
+about: Suggest an enhancement (suggestions are welcomed; implementation is at the core team's discretion)
 title: '[FEATURE] '
 labels: 'enhancement'
 assignees: ''
 
 ---
 
-## Feature Description
-<!-- A clear and concise description of what you want to happen -->
+**Note on cathedral governance.** OpenSecOps follows a cathedral governance model — a small core team curates the codebase and decides what ships. Feature suggestions are welcomed as input, but there is no implicit commitment to implement any specific suggestion or to act on a timeline. See [CONTRIBUTING.md](https://github.com/OpenSecOps-Org/.github/blob/main/CONTRIBUTING.md) for the full policy.
 
-## Problem This Solves
-<!-- A clear and concise description of what problem this feature would solve -->
+## Feature description
 
-## Security Considerations
-<!-- Describe any security implications this feature might have -->
+<!-- What you'd like the project to do. -->
 
-## Proposed Implementation
-<!-- Optional: Suggest an approach or implementation -->
+## Problem this solves
 
-## Alternatives Considered
-<!-- A clear and concise description of any alternative solutions you've considered -->
+<!-- Why this matters from a user's perspective. -->
 
-## Additional Context
-<!-- Add any other context, screenshots, or examples about the feature request here -->
+## Additional context
 
-## Impact Assessment
-- [ ] This feature would modify security-critical components
-- [ ] This feature would change authentication or authorization
-- [ ] This feature would affect data handling or storage
-- [ ] This feature would modify logging or auditing
-- [ ] This feature would change infrastructure configuration
-
-## Verification
-- [ ] I have verified this feature aligns with the project's security-first philosophy
-- [ ] I have checked that this feature has not already been requested
+<!-- Optional: examples, alternatives you've considered, related issues, links. -->

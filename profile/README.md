@@ -44,19 +44,25 @@ Comprehensive documentation is available in the [Documentation repository](https
   - [KMS Keys SOP](https://github.com/OpenSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20KMS%20Keys%20-%20SOP.docx.pdf)
   - [S3 Buckets SOP](https://github.com/OpenSecOps-Org/Documentation/blob/main/docs/SOAR/OpenSecOps%20SOAR%20S3%20Buckets%20-%20SOP.docx.pdf)
 
-## Community Resources
+## Governance and contribution
 
-- [Code of Conduct](https://github.com/OpenSecOps-Org/.github/blob/main/profile/CODE_OF_CONDUCT.md) - Our community standards
-- [Contributing Guidelines](https://github.com/OpenSecOps-Org/.github/blob/main/profile/CONTRIBUTING.md) - How to contribute to OpenSecOps
-- [Pull Request Template](https://github.com/OpenSecOps-Org/.github/blob/main/profile/PULL_REQUEST_TEMPLATE.md) - Template for submitting pull requests
-- [Issue Templates](https://github.com/OpenSecOps-Org/.github/tree/main/profile/ISSUE_TEMPLATE) - Templates for creating issues
-  - [Bug Report](https://github.com/OpenSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/bug_report.md) - Report a bug
-  - [Feature Request](https://github.com/OpenSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/feature_request.md) - Suggest a new feature
-- [Security Policy](https://github.com/OpenSecOps-Org/.github/blob/main/profile/SECURITY.md) - Reporting security vulnerabilities
+OpenSecOps is open source under MPL-2.0. The contribution model is a cathedral, not a bazaar: a small core team curates the codebase, and external pull requests are not accepted on any repository. The [Trust page](https://www.opensecops.org/trust.html) explains why; [CONTRIBUTING.md](https://github.com/OpenSecOps-Org/.github/blob/main/CONTRIBUTING.md) covers the operational details.
+
+What is welcomed:
+
+- **Bug reports for non-security defects** — public, accepted, and acknowledged. Use the [bug report template](https://github.com/OpenSecOps-Org/.github/blob/main/ISSUE_TEMPLATE/bug_report.md) on the affected component repository.
+- **Vulnerability reports** — via the GitHub Security Advisory flow ("Report a vulnerability") on the affected repository. Fallback channel: `security@opensecops.org`. Reporters receive named credit per the coordinated-disclosure timeline in each component's `SECURITY.md`.
+- **Forking under MPL-2.0** — permitted by the licence; no coordination needed.
+
+Reference documents (all in the [`OpenSecOps-Org/.github`](https://github.com/OpenSecOps-Org/.github) special repository):
+
+- [CONTRIBUTING.md](https://github.com/OpenSecOps-Org/.github/blob/main/CONTRIBUTING.md) — full policy and rationale.
+- [CODE_OF_CONDUCT.md](https://github.com/OpenSecOps-Org/.github/blob/main/CODE_OF_CONDUCT.md) — community standards.
+- [SECURITY.md](https://github.com/OpenSecOps-Org/.github/blob/main/SECURITY.md) — vulnerability disclosure policy.
 
 ## Website
 
-Visit our website at [https://opensecops.org](https://opensecops.org) for additional information, including technical details and stakeholder-focused material.
+Visit our website at [https://opensecops.org](https://opensecops.org) for product information and stakeholder-focused material. The [Trust page](https://www.opensecops.org/trust.html) is the entry point to the supply-chain posture, governance model, and verification artefacts attached to every release.
 
 ## Mailing List
 

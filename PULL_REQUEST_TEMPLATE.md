@@ -1,55 +1,11 @@
-# Security-First Pull Request
+# Pull requests are not accepted on OpenSecOps repositories
 
-## Security Impact Assessment
+External pull requests are not accepted on any OpenSecOps repository, for any change. The full reasoning is in [CONTRIBUTING.md](https://github.com/OpenSecOps-Org/.github/blob/main/profile/CONTRIBUTING.md) — in short: OpenSecOps runs in customer accounts with admin-equivalent privilege scope, and governance follows the cathedral model with one chain of accountability and one signing identity per release.
 
-**This change:**
-- [ ] Does NOT affect security-critical components
-- [ ] Modifies security-relevant code
-- [ ] Affects authentication or authorization
-- [ ] Changes data handling or storage
-- [ ] Modifies logging or auditing
-- [ ] Affects encryption or key management
-- [ ] Changes infrastructure configuration
+**This PR will be closed without review.** If you opened it because you wanted to:
 
-## Description
-<!-- Provide a comprehensive description of your changes -->
+- **Report a bug (non-security)** — please open an issue on the affected component repository instead, using the [bug report template](https://github.com/OpenSecOps-Org/.github/blob/main/profile/ISSUE_TEMPLATE/bug_report.md). Public, accepted, and acknowledged.
+- **Report a vulnerability** — please use the GitHub Security Advisory flow ("Report a vulnerability") on the affected component repository in the [OpenSecOps-Org organisation](https://github.com/OpenSecOps-Org), not a public PR or issue. A public report of an unpatched vulnerability is itself a disclosure event. Fallback channel: `info@opensecops.org`. Reporters receive named credit per the coordinated-disclosure timeline in each component's `SECURITY.md`.
+- **Fork and modify the code for your own use** — that is permitted by the MPL-2.0 licence and requires no coordination with us. No PR is needed.
 
-## Security Considerations
-<!-- Detail the security implications of this change -->
-
-## Risk Assessment
-- **Impact Level**: (Low/Medium/High)
-- **Security Verification Performed**: 
-<!-- Describe the testing you've done to verify security -->
-
-## Verification Steps
-<!-- List steps reviewers should take to verify your changes are secure -->
-1. 
-2. 
-3. 
-
-## Documentation Updates
-<!-- List any documentation you've updated for this change -->
-
-## Deployment Considerations
-<!-- Any specific considerations for deploying this change -->
-
-## Security Checklist
-- [ ] Follows secure coding guidelines
-- [ ] Does not introduce new attack vectors
-- [ ] Properly handles errors and edge cases
-- [ ] Input validation is comprehensive
-- [ ] Output encoding is implemented where needed
-- [ ] Sensitive data is properly protected
-- [ ] Logging does not expose sensitive information
-- [ ] Tests include security coverage
-
-## Related Issues
-<!-- Link to any related issues this PR addresses -->
-
-## Additional Notes
-<!-- Any additional information reviewers should know -->
-
----
-
-By submitting this PR, I confirm that my contributions are made under the terms of the project license and that I have the authority to submit them.
+For the substantive supply-chain posture, signing identities, and verification artefacts attached to every release, see the [Trust page](https://www.opensecops.org/trust.html), each component's `SECURITY.md`, and the [canonical supply-chain document](https://github.com/OpenSecOps-Org/Documentation/blob/main/docs/security/supply-chain.md).

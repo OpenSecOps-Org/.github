@@ -1,63 +1,18 @@
 # Security Policy
 
-## Security Context
+This is the **default security policy** served by GitHub for OpenSecOps repositories that do not yet carry their own `SECURITY.md`. Repositories converted to the OpenSecOps supply-chain model carry a per-component `SECURITY.md` at the root of the repository — with the supported-versions statement, the per-component acknowledged-and-deferred CVE list, signing identities, and the project-wide CVE-response SLA (critical 3 business days, high 10, medium and low at the next regular release). When present, the per-component file takes precedence; this default applies to the rest.
 
-OpenSecOps is a security-critical platform used in financial services and other high-security environments by organizations handling billions of dollars in transactions. The security of this software is paramount, and we take all security concerns extremely seriously.
+## Reporting a vulnerability
 
-## Reporting a Vulnerability
+- **Preferred channel**: the GitHub Security Advisory ("Report a vulnerability") flow on the affected repository in the [OpenSecOps-Org organisation](https://github.com/OpenSecOps-Org). This produces a private advisory visible only to the core team.
+- **Fallback channel**: `security@opensecops.org`, for coordination on something that does not yet have a clear repository home.
 
-**DO NOT** report security vulnerabilities through public GitHub issues, discussions, or pull requests.
+Do **not** report vulnerabilities via public GitHub issues, discussions, or pull requests — a public report mentioning an unpatched vulnerability is itself a disclosure event.
 
-Instead, please report security vulnerabilities by emailing:
+Reporters receive named credit per the coordinated-disclosure timeline in each component's `SECURITY.md`. The fix is authored by the core team.
 
-**[security@opensecops.org](mailto:security@opensecops.org)**
+## More information
 
-Please include the following information in your report:
-
-- Description of the vulnerability
-- Steps to reproduce the issue
-- Potential impact of the vulnerability
-- Any potential mitigations you've identified
-
-## Response Process
-
-When you report a vulnerability, our security team will:
-
-1. Acknowledge receipt of your report within 24 hours
-2. Provide a preliminary assessment within 3 business days
-3. Work with you to understand and validate the issue
-4. Develop and test a fix for validated vulnerabilities
-5. Coordinate the release of security updates
-6. Publicly acknowledge your responsible disclosure (if desired)
-
-## Security Review Process
-
-All code in OpenSecOps undergoes rigorous security review, including:
-
-- Static code analysis
-- Dynamic security testing
-- Manual security review by experts
-- Dependency vulnerability scanning
-- Validation against common attack vectors
-
-## Security Updates
-
-Critical security updates will be released as soon as they are validated and tested. Non-critical security enhancements may be bundled with regular releases.
-
-We are committed to maintaining the security integrity of all versions currently in use by our community.
-
-## Scope
-
-This security policy applies to all repositories within the OpenSecOps-Org GitHub organization.
-
-## Security Expectations
-
-Contributors and users should:
-
-- Keep their environments secure and updated
-- Never share API keys or credentials
-- Follow secure deployment best practices
-- Implement defense-in-depth security principles
-- Report any security concerns promptly through the proper channels
-
-We appreciate your help in keeping OpenSecOps and its users secure.
+- [**Trust page**](https://www.opensecops.org/trust.html) — entry point to the supply-chain posture, governance model, and verification artefacts attached to every release.
+- [**Canonical supply-chain document**](https://github.com/OpenSecOps-Org/Documentation/blob/main/docs/security/supply-chain.md) — verification recipes, framework citations (S2C2F, SLSA, CycloneDX), and procurement-questionnaire crosswalk.
+- [**CONTRIBUTING.md**](https://github.com/OpenSecOps-Org/.github/blob/main/CONTRIBUTING.md) — the cathedral governance model and contribution policy.
